@@ -7,6 +7,9 @@ curl -o ~/.vim/colors/molokai.vim https://raw.githubusercontent.com/tomasr/molok
 # install vim-plug
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
+# install oh-my-bash
+sh -c "$(curl -fsSL https://raw.github.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+
 # copy .vimrc config
 cp .vimrc ~/.vimrc
 
